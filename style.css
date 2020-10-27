@@ -1,0 +1,157 @@
+body {
+  background: #85C1E9;
+}
+header {
+  background-color: #F7DC6F;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 90px;
+}
+#title {
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-align: center;
+  color: #191970;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+header a {
+  text-decoration: none;
+  color: #FFE4B5;
+  font-size: 1.1em;
+}
+header a:hover {
+  color: #8B0000;
+}
+header a:visited {
+  color: #008080;
+}
+#description {
+  text-align: center;
+  color: #008080;
+  font-family: 'ZCOOL XiaoWei', serif;
+  padding-bottom: 15px;
+}
+/* For change color for valid or invalid form*/
+input:invalid {
+  border: 2px solid #DC143C;
+}
+input:valid {
+  border: 1px solid #8FBC8F;
+}
+.star {
+  color: #8B0000;
+  margin-right: 5px;
+}
+#required {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Dosis', sans-serif;
+  color: #191970;
+}
+input {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+label {
+  margin-right: 20px;
+  padding-top: 20px;
+}
+.note {
+  margin-left: 35px;
+}
+#ifyou {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#dropdown {
+  margin-bottom: 50px;
+}
+#continent {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #191970;
+  margin-left: 20px;
+}
+#radio {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2em;
+  color: #00008B;
+  width: 40%;
+  float: left;
+  margin-left: 20px;
+}
+#radio legend {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin-left: 15px;
+}
+#checkbox legend {
+ font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin-left: 15px; 
+}
+#checkbox {
+  font-family: 'Indie Flower';
+  cursive;
+  font-size: 1.2em;
+  color: #00008B;
+  width: 30%;
+  float:left;
+  margin-left: 80px;
+  margin-right: 20px;
+}
+.story {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin-right: 25px;
+}
+#story {  
+  clear: both;
+  font-family: 'Indie Flower';
+  font-size: 1.3;
+  margin-left: 50px;
+}
+#buttom {
+  margin-left: 100px;
+}
+
+@media screen and (min-width: 100px) and (max-width: 640px) {
+  #radio {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2em;
+  color: #00008B;
+  width: 80%;
+  margin-left: 20px;  
+}
+  #radio legend {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin-left: 20;
+}
+  #checkbox {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2em;
+  color: #00008B;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  #story {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin-left: 15px; 
+  width: 90%;
+  clear: both;
+}
+}

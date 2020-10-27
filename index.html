@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Abenezer</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>CodePen - freeCodeCamp: Build a Survey Form</title>
+</head>
+<body>
+  <main id="main">
+    <header id="header">
+      <h1 id="title">Survey Form </h1>
+      <h2 id="description">For a <a href="https://www.freecodecamp.org/" target="_blank"><u>freecodecamp</u></a> course I build this form as well as possible...</h2>
+    </header>
+      <form id="survey-form">
+        <div id="required">
+        <div>
+          <label id="name-label" for="name"><span class="star">*</span>Name</label>
+            <input type="text" id="name"  placeholder= "name" required>
+        </div>
+        <div>
+          <label id="email-label" for="email"><span class="star">*</span>Email</label>
+            <input type="email" id="email" name="email" placeholder="@-mail" required>
+        </div>
+        <div>
+          <label id="number-label" for="number"><span class="star">*</span>Your phone number</label>
+            <input type="tel" id="number" name="number" placeholder ="number phone" pattern="[0-9]{4}/[0-9]{6}" minlength="10" maxlength="11"required><br>
+        <span class="note">Format: 1234/567890</span>
+        </div>
+        </div>
+        <div id= "ifyou">
+          <p id="continent">If you were a animal,<br> what would you be?</p>
+            <select id="dropdown" name="country">
+             <option disabled="" selected="" value="">Select an option</option>
+              <option value="amérique">
+                cat
+              </option>
+              <option value="afrique">
+                Lion
+              </option>
+              <option value="antartique">
+                Tiger
+              </option>
+              <option value="asie">
+                Horse
+              </option>
+              <option value="océanie">
+                Rat
+              </option>
+              <option value="europe">
+                Dog
+              </option>
+              <option value="amérique-du-nord">
+                Sheep
+              </option>
+          </select>
+        </div>
+        <div id="radio">
+           <fieldset>
+            <legend>How would you define yourself?</legend>
+              <input type="radio" name="behavior" value="dreamer" checked> dreamer<br>
+              <input type="radio" name="behavior" value="pragmatic"> pragmatic<br>
+              <input type="radio" name="behavior" value="dreamer-pragmatic"> dreamer-pragmatic
+            <fieldset>
+        </div>
+        <div id="checkbox">
+          <fieldset>
+            <legend>Please select your interests:</legend>
+              <div>
+                <input type="checkbox" id="coding" name="interest" value="coding" checked>
+                  <label for="coding">Développement</label>
+              </div>
+              <div>
+                <input type="checkbox" id="music" name="interest" value="music">
+                  <label for="music">Music</label>
+              </div>
+              <div>
+                <input type="checkbox" id="movies" name="interest" value="movies">
+                  <label for="movies">Movies</label>
+              </div>
+              <div>
+                <input type="checkbox" id="museum" name="interest" value="museum">
+                  <label for="museum">Museum</label>
+              </div>
+              <div>
+                <input type="checkbox" id="party" name="interest" value="party">
+                  <label for="party">Party</label>
+              </div>
+              <div>
+                <input type="checkbox" id="city_trip" name="interest" value="city_trip">
+                  <label for="city_trip">City Trip</label>
+              </div>
+              <div>
+                <input type="checkbox" id="walk" name="interest" value="walk">
+                  <label for="walk">Walk</label>
+              </div>
+          </fieldset>          
+        </div>
+        <div id="story">
+           <label class="story" for="story">Tell us more about you:</label><br>
+             <textarea id="story" name="story" rows="5" cols="60" minlength="10" maxlength="500">
+                  It was a dark and stormy night...
+             </textarea>
+        </div>
+        <div>
+          <input id="buttom" type="submit" value="Submit">
+        </div>
+      </form>
+  </main>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
